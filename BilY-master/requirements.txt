@@ -1,0 +1,32 @@
+you might need one or more of the following imports to run bilY:
+
+import requests
+import streamlit as st
+from streamlit_lottie import st_lottie
+from PIL import Image
+
+from msilib.schema import Shortcut
+from click import format_filename
+from pyparsing import Regex
+from textBased import toFullEnglish, toFullArabic
+from english_words import english_words_set
+from ar_corrector.corrector import Corrector
+from textblob import Word
+from gingerit.gingerit import GingerIt
+import csv
+import encodings
+import tensorflow as tf
+import numpy
+from sklearn.model_selection import train_test_split
+from cgitb import text
+from unittest import TextTestResult
+import speech_recognition
+import pyttsx3
+from pydub import AudioSegment
+from pydub.silence import split_on_silence
+from neuralsamples import to_english
+# install: pip install --upgrade arabic-reshaper
+import arabic_reshaper
+
+# install: pip install python-bidi
+from bidi.algorithm import get_display
